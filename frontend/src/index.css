@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap');
+
+@theme {
+  --color-neo-peach: #FFDAB9;
+  --color-neo-peach-dark: #FFB07C;
+  --color-neo-pink: #FF69B4;
+  --color-neo-pink-light: #FFC0CB;
+  --color-neo-pink-deep: #C71585;
+  --color-neo-black: #1A1A1A;
+  --color-neo-white: #FFF5EE;
+
+  --shadow-neo: 4px 4px 0px 0px #1a1a1a;
+  --shadow-neo-lg: 8px 8px 0px 0px #1a1a1a;
+  --shadow-neo-sm: 2px 2px 0px 0px #1a1a1a;
+
+  --border-3: 3px;
+  --font-sans: Sora, sans-serif;
+}
