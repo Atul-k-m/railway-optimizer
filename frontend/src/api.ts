@@ -3,6 +3,7 @@ export const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://railway-opt
 export interface Station {
     code: string;
     name: string;
+    zone?: string;
 }
 
 export interface SearchParams {

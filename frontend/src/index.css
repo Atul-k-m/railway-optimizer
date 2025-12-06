@@ -1,6 +1,14 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap');
 
+@layer base {
+  body {
+    @apply bg-neo-peach text-neo-black font-sans min-h-screen;
+    background-image: radial-gradient(circle, #000 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+}
+
 @theme {
   --color-neo-peach: #FFDAB9;
   --color-neo-peach-dark: #FFB07C;

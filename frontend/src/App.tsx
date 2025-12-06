@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { SearchForm } from './components/SearchForm';
 import { ResultsList } from './components/ResultsList';
-import { searchTrains,type SearchParams,type SearchResponse } from './api';
+import { searchTrains, type SearchParams, type SearchResponse } from './api';
 
 function App() {
   const [results, setResults] = useState<SearchResponse | null>(null);
@@ -35,7 +35,7 @@ function App() {
         </header>
 
         <main>
-          <SearchForm onSearch={handleSearch} loading={loading} />
+          <SearchForm onSearch={handleSearch} isLoading={loading} />
 
           {error && (
             <div className="mt-8 bg-red-100 border-3 border-neo-black p-4 text-red-900 font-bold text-xl shadow-neo flex items-center gap-2">
